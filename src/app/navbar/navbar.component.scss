@@ -1,0 +1,32 @@
+.bg-inverse {
+  background-color: #373a3c;
+}
+.active {
+  color: #fff;
+}
+.navbar-toggler {
+  border: solid 0px silver !important;
+  border-radius: 2px;
+  color: #eee;
+}
+
+.navItems {
+  border: solid 1px silver !important;
+  height: 90%;
+  width: 200px
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navigation ul li {
+  display: inline;
+}
+.navigation ul li div{
+  display: inline;
+}
+
+.navigation ul li a{
+  display: inline;
+}

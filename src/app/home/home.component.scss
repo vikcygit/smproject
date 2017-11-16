@@ -1,0 +1,389 @@
+.jumbotron-fluid {
+    padding:0;
+}
+header {
+  margin-top: -15px;
+}
+img{
+  width:100%;
+  max-width: 100%;
+  height:auto;
+}
+.card-img-top{
+  width:100%;
+  height:auto;
+}
+
+#site-title {
+    max-width:150px;
+}
+#size-banner{
+    height:580px;
+    padding-top:60px;
+}
+header .display-2 {
+    font-size: 350%;
+    line-height:1;
+    font-weight:300;
+}
+.banner-tag-line {
+    font-size:150%;
+    line-height:1.4;
+    font-weight:300;
+}
+
+@media (min-width: 48em) { /* -md- and above */
+  #size-banner{
+      height:600px;
+      padding-top:150px;
+  }
+  header .display-2 {
+    font-size: 400%;
+  }
+  .banner-tag-line {
+    font-size:180%;
+}
+  .homeContainer {
+      max-width: 100% !important;
+      height: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+      overflow: hidden
+  }
+}
+
+
+.btn-banner {
+  font-weight: 600;
+  color: #002157;
+  border-color: #002157;
+  margin-right: 10px;
+}
+
+.homeContainer .sideBar {
+	width: 18%;
+	height: 90vh;
+	float: left;
+	border: 0px solid #353535;
+	overflow: hidden;
+	background-color: #373a3c;
+	color: #fff
+}
+
+.homeContainer .rightNav {
+	width: calc(100% - 18%);
+	height: 90vh;
+	// border: 1px solid #2f0aa9;
+	overflow: hidden
+}
+
+.bg-inverse {
+	background-color: #373a3c;
+}
+.active {
+	color: #fff;
+}
+.navbar-toggler {
+	border: solid 0px silver !important;
+	border-radius: 2px;
+	color: #eee;
+}
+
+.sidebarTitle {
+    float: left;
+    width: 100%;
+    text-align: left
+}
+
+.sideBar .navList {
+    list-style: none
+}
+.sidebarList {
+    text-overflow: auto
+}
+
+.sidebarList ul {
+    clear: both;
+    list-style-type: none;
+  }
+  
+.sidebarList li.created {
+    width: 100px;
+  }
+  
+.sidebarList li.ip {
+    width: 100px;
+  }
+
+  .navGroup {
+    padding: 1px 0 5px 0;
+    min-height: 120px;
+    border-bottom: 1px solid #fff;
+    text-align: left
+  }
+
+  .sidebarList div:last-child { border-bottom: none; }
+
+  .navList {
+      padding-left: 0
+  }
+  .navGroup ul {
+    padding: 10px 0 1px 18px;
+    width: 90%
+}
+
+//style needs to be edited
+//search bar styling
+#searchContainer {
+  width: 100%;
+height: 80px;
+background-color: #232f3e;;
+border: 0px solid #343434;
+margin: 0 auto;
+padding-top: 10px
+}
+
+.searchDiv {
+  width: 600px;
+height: 30px;
+// border: 1px solid #ff0000;
+margin: 0px auto;
+padding: 0px;
+border-radius: 4px
+}
+
+
+.nav-searchbar .nav-left {
+border-top-left-radius: 4px;
+border-bottom-right-radius: 4px;
+height: 25px
+ }
+
+.nav-searchbar .nav-right {
+ }
+
+.nav-searchbar .nav-fill {
+height: 25px;
+width: auto;
+font-size: 14
+ }
+
+ .nav-searchbar .nav-fill input {
+    border: 0px;
+    padding: 6px 10px 6px 0
+     }
+
+ #results {
+     border: 1px solid #343434
+ }
+
+#nav-search .nav-search-field .nav-input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    line-height: 15px;
+    height: 33px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    color: rgb(17, 17, 17);
+    -webkit-appearance: none;
+    box-shadow: none;
+    text-indent: 8px;
+    padding: 6px 10px 6px 0px;
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    background: 0px 0px;
+    outline: 0px;
+}
+
+.search-submit {
+    // background-color: #febd69;
+    background-image: url("../../images/search-icon-orange.svg");
+background-repeat: no-repeat;
+background-color: transparent;
+
+background-size: 20px 20px;
+    border: none;
+    width: 30px;
+    height: 30px
+}
+
+#searchTextBox {
+ width: 460px}
+#navbar #nav-search {
+    margin-top: 0;
+    padding-top: 11px;
+    padding-right: 25px;
+    border: 1px solid #343434
+}
+
+#nav-search .nav-searchbar {
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#nav-search .nav-searchbar .nav-left, #nav-search .nav-searchbar .nav-right {
+    position: relative;
+    height: 25px;
+width: 500px
+}
+
+#nav-search .nav-searchbar .nav-fill, #nav-search .nav-searchbar .nav-left, #nav-search .nav-searchbar .nav-right {
+    position: relative;
+    height: 25px;
+}
+.nav-left {
+    position: relative;
+    float: left;
+    width: auto;
+    display: inline-block;
+// border: 1px solid #343434
+}
+
+.nav-right {
+    position: relative;
+    float: right;
+    width: auto;
+    display: inline-block;
+    // border: 1px solid #343434
+}
+
+.search-scope {
+    background-color: #e1e1e1;
+    font-size: 12px;
+    height: 25px
+}
+
+.nav-fill {
+// border: 1px solid #343434;  
+    overflow: hidden
+}
+
+.nav-input {
+    width: 100%
+}
+
+.searchOptions {
+width: 100px;
+height: 23px;
+border:0px;
+background-color: #e1e1e1
+}
+
+
+
+//search bar styling ends
+
+
+
+.navGroup li {
+      padding: 8px 0 10px 0;
+      width: 98%
+  }
+
+  /*table styling*/
+
+  .searchInput {
+      margin: 10px;
+      width: 700px
+    }
+  .tableContainer {
+      width: 90%;
+      border: 1px solid #bbb7b7;
+      margin: 30px 0 0 10px
+  }
+
+  th#name {
+      width: 40%
+  }
+  .tableContainer tbody tr, .tableContainer tbody td{
+      height: .55rem
+  }
+  .tableContainer>tbody>tr {
+    padding: 0.55rem
+  }
+
+  .programsTable td, {
+    padding: 0.55rem;
+    vertical-align: top;
+    border-top: 1px solid #e9ecef;
+  }
+  .nameColor {
+      width: 38px;
+      height: 38px;
+      color: #fff;
+      float:left;
+      border-top-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 38px; 
+      
+  }
+
+  .nameColor.red{
+    background-color: red
+  }
+
+  .nameColor.blue{
+    background-color: blue
+  }
+
+  .nameColor.violet{
+    background-color: violet
+  }  
+
+  .nameColor.green{
+    background-color: rgb(140, 240, 172)
+  }   
+
+  .nameLabel {
+      width: 80%;
+      text-align: left;
+      padding-left: 48px
+  }
+/* ---------------------- PARALLAX --------------------------------------*/
+.parallax {
+    text-align:center;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:30%;
+    background-attachment:fixed!important;
+    overflow:hidden;
+}
+
+.parallax-pattern-overlay {
+    background-color: rgba(255,255,255,0.5);
+}
+
+/* ----------------------- FOOTER ---------------------------------------*/
+.footer {
+    background:#363636;
+    margin-top:-30px;
+    position:relative;
+    padding: 0;
+}
+
+/*.footer .container {
+    padding-top: 10px;
+}*/
+
+.footer p {
+    color:#fff;
+    font-size:.9em;
+    line-height:24px;
+    font-weight:300;
+    text-align:center;
+    text-transform:uppercase;
+    margin-top: 30px;
+}
